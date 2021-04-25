@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Main from "../layouts/Main";
 
 const Resume = () => (
-    <Main title="Stats" description="Chak Yuen Cheng's Resume">
+    <Main title="Resume" description="Chak Yuen Cheng's Resume">
         <article className="post" id="stats">
             <header>
                 <div className="title">
