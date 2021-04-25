@@ -13,7 +13,7 @@ const Photos = lazy(() => import('./pages/Photos'));
 
 
 const App = () => (
-    <BrowserRouter basename={"/"}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Suspense fallback={<div>Loading... </div>}>
             <Switch>
                 <Route exact path="/" component={Index} />
